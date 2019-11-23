@@ -1,15 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
 
 import matplotlib.pyplot as plt
 import numpy as np
-
-
-# In[15]:
-
 
 def plotstart():
   X = np.arange(0,2*np.pi,0.1)
@@ -20,15 +14,5 @@ def plotstart():
   plt.plot(X,Y,X,Z,X,T)
   plt.show()
 
-
-
-# In[16]:
-
-if __name__ == '__main__':
+  if __name__ == '__main__':
     plotstart()
-
-# In[ ]:
-
-
-
-
